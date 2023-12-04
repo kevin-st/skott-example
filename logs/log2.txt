@@ -1,0 +1,102 @@
+This log contains the path aliases without "@"-symbols, but without the fix for the "xmlParser" folder.
+As we can see, the xmlParser folder can not be resolved, as the actual name of the folder is "xml-parser".
+===============================================================================================================
+.\node_modules\.bin\skott.cmd .\packages\index.ts --displayMode="webapp" --verbose
+
+ Running Skott from entrypoint: .\packages\index.ts
+
+ ✓ Root manifest found. Third-party dependencies will to be resolved from it.
+
+ Building from entrypoint: .\packages\index.ts
+
+ Start resolution for .\packages\index.ts
+
+ ✓ Succesfully resolved .\packages\index.ts
+
+ ✓ .\packages\index.ts found.
+
+ Reading from tsconfig: tsconfig.json
+
+ ✓ Successfully found tsconfig: P:\sandbox\skott\tsconfig.json
+
+ Extracting path aliases from tsconfig: tsconfig.json
+
+ Found path alias "ar/*": ["ar/*"]
+
+ Registering path alias without wildcards "ar": ["packages\ar"]
+
+ Found path alias "configurator/*": ["configurator/*"]
+
+ Registering path alias without wildcards "configurator": ["packages\configurator"]
+
+ Found path alias "xmlParser/*": ["xml-parser/*"]
+
+ Registering path alias without wildcards "xmlParser": ["packages\xml-parser"]
+
+ Looking for .\packages\index.ts module declarations using TypeScriptModuleWalker
+
+ Resolving ar/components/ARComponent using EcmaScriptDependencyResolver
+
+ Start resolution for packages\ar\components\ARComponent
+
+ ✖ Failed to resolve packages\ar\components\ARComponent\index.js
+
+ ✓ Successfully resolved packages\ar\components\ARComponent.ts
+
+ Looking for packages\ar\components\ARComponent.ts module declarations using TypeScriptModuleWalker
+
+ Resolving ar/handlers/ar.handler using EcmaScriptDependencyResolver
+
+ Start resolution for packages\ar\handlers\ar.handler
+
+ ✖ Failed to resolve packages\ar\handlers\ar.handler\index.js
+
+ ✓ Successfully resolved packages\ar\handlers\ar.handler.ts
+
+ Looking for packages\ar\handlers\ar.handler.ts module declarations using TypeScriptModuleWalker
+
+ Resolving ar/components/ARComponent using EcmaScriptDependencyResolver
+
+ Start resolution for packages\ar\components\ARComponent
+
+ ✖ Failed to resolve packages\ar\components\ARComponent\index.js
+
+ ✓ Successfully resolved packages\ar\components\ARComponent.ts
+
+ Resolving configurator/components/ConfiguratorComponent using EcmaScriptDependencyResolver
+
+ Start resolution for packages\configurator\components\ConfiguratorComponent
+
+ ✖ Failed to resolve packages\configurator\components\ConfiguratorComponent\index.js
+
+ ✓ Successfully resolved packages\configurator\components\ConfiguratorComponent.ts
+
+ Looking for packages\configurator\components\ConfiguratorComponent.ts module declarations using TypeScriptModuleWalker
+
+ Resolving xmlParser/index using EcmaScriptDependencyResolver
+
+ Extracting "xmlParser/index" base path using path alias base directory "xmlParser"
+
+ Attempt to map alias path to real file-system path. Join "packages\xml-parser" -> "undefined"
+
+ ✖ Could not resolve xmlParser/index alias path to real file-system path using packages\xml-parser and xmlParser.
+
+ ✖ xmlParser/index path alias could not be resolved using base path packages\xml-parser
+
+ ✖ xmlParser/index alias could not be resolved
+
+ Processed 4 files (113.434ms)
+
+ ✖ Circular dependencies were found. Graph is not Acyclic.
+
+ Third-party dependencies: ❌
+
+ --> Use --trackThirdPartyDependencies to enable tracking.
+
+ Built-in dependencies: ❌
+
+ --> Use --trackBuiltinDependencies to enable tracking.
+
+ Type-level only dependencies: ✅
+
+ Prefetching data...
