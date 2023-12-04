@@ -1,0 +1,248 @@
+This log contains the results for the path aliases using the "@"-symbol.
+No single import statement is able to resolve correctly as we're using the "@"-symbol here.
+====================================================================================================
+.\node_modules\.bin\skott.cmd .\packages\index.ts --displayMode="webapp" --verbose
+
+ Running Skott from entrypoint: .\packages\index.ts
+
+ ✓ Root manifest found. Third-party dependencies will to be resolved from it.
+
+ Building from entrypoint: .\packages\index.ts
+
+ Start resolution for .\packages\index.ts
+
+ ✓ Succesfully resolved .\packages\index.ts
+
+ ✓ .\packages\index.ts found.
+
+ Reading from tsconfig: tsconfig.json
+
+ ✓ Successfully found tsconfig: P:\sandbox\skott\tsconfig.json
+
+ Extracting path aliases from tsconfig: tsconfig.json
+
+ Found path alias "@ar/*": ["ar/*"]
+
+ Registering path alias without wildcards "@ar": ["packages\ar"]
+
+ Found path alias "@configurator/*": ["configurator/*"]
+
+ Registering path alias without wildcards "@configurator": ["packages\configurator"]
+
+ Found path alias "@xmlParser/*": ["xml-parser/*"]
+
+ Registering path alias without wildcards "@xmlParser": ["packages\xml-parser"]
+
+ Looking for .\packages\index.ts module declarations using TypeScriptModuleWalker
+
+ Resolving @ar/components/ARComponent using EcmaScriptDependencyResolver
+
+ Start resolution for packages\@ar\components\ARComponent
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ Start resolution for packages\@ar\components\ARComponent
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ Start resolution for P:\sandbox\skott\@ar\components\ARComponent
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent\index.js
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent.ts
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent\index.ts
+
+ ✖ Failed to resolve P.ts
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent.js
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent.tsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent\index.tsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent.jsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent\index.jsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@ar\components\ARComponent\index.js
+
+ Start resolution for packages\@ar\components\ARComponent
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.js
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.tsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.jsx
+
+ ✖ Failed to resolve packages\@ar\components\ARComponent\index.js
+
+ Skipped @ar/components/ARComponent
+
+ Resolving @configurator/components/ConfiguratorComponent using EcmaScriptDependencyResolver
+
+ Start resolution for packages\@configurator\components\ConfiguratorComponent
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ Start resolution for packages\@configurator\components\ConfiguratorComponent
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ Start resolution for P:\sandbox\skott\@configurator\components\ConfiguratorComponent
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent\index.js
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent.ts
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent\index.ts
+
+ ✖ Failed to resolve P.ts
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent.js
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent.tsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent\index.tsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent.jsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent\index.jsx
+
+ ✖ Failed to resolve P:\sandbox\skott\@configurator\components\ConfiguratorComponent\index.js
+
+ Start resolution for packages\@configurator\components\ConfiguratorComponent
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.ts
+
+ ✖ Failed to resolve p.ts
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.js
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.tsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.jsx
+
+ ✖ Failed to resolve packages\@configurator\components\ConfiguratorComponent\index.js
+
+ Skipped @configurator/components/ConfiguratorComponent
+
+ Resolving @xmlParser/index using EcmaScriptDependencyResolver
+
+ Extracting "@xmlParser/index" base path using path alias base directory "@xmlParser"
+
+ Attempt to map alias path to real file-system path. Join "packages\xml-parser" -> "undefined"
+
+ ✖ Could not resolve @xmlParser/index alias path to real file-system path using packages\xml-parser and @xmlParser.
+
+ ✖ @xmlParser/index path alias could not be resolved using base path packages\xml-parser
+
+ ✖ @xmlParser/index alias could not be resolved
+
+ Processed 1 file (90.757ms)
+
+ ✓ no circular dependencies found (depth=Infinity)
+
+ Third-party dependencies: ❌
+
+ --> Use --trackThirdPartyDependencies to enable tracking.
+
+ Built-in dependencies: ❌
+
+ --> Use --trackBuiltinDependencies to enable tracking.
+
+ Type-level only dependencies: ✅
+
+ Prefetching data...
