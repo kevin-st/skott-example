@@ -18,6 +18,6 @@
     "@babel/preset-env": "^7.23.5",
     "@babel/preset-typescript": "^7.23.3",
     "babel-loader": "^9.1.3",
-    "skott": "^0.31.3"
+    "skott": "^0.33.2"
   }
 }
